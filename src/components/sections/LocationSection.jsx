@@ -19,10 +19,10 @@ export default function LocationSection() {
         <div className="max-w-6xl mx-auto">
           <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52563.01574756071!2d-58.445577874999995!3d-34.615662199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e10!2sBuenos%20Aires%2C%20Argentina!5e0!3m2!1ses!2sar!4v1234567890123!5m2!1ses!2sar"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d410.2827932187926!2d-68.39680073930751!3d-34.64807694460767!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2s!5e0!3m2!1ses!2shu!4v1766519782475!5m2!1ses!2shu"
               width="100%"
               height="500"
-              style={{ border: 0 }}
+              style={{ border: 1 }}
               allowFullScreen=""
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

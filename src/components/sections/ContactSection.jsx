@@ -139,7 +139,7 @@ ${formData.mensaje}
                 <input
                   name="telefono"
                   type="tel"
-                  placeholder="+54 9 11 1234-5678"
+                  placeholder="+54 9 2604 306032"
                   value={formData.telefono}
                   onChange={handleInputChange}
                   className="w-full border-2 border-gray-200 p-4 rounded-xl focus:border-green-500 focus:outline-none transition-colors"
