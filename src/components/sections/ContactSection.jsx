@@ -3,7 +3,7 @@ import { Mail, MessageCircle, Phone } from 'lucide-react';
 import { CONTACT_CONFIG } from "../../config/contactConfig";
 import SectionTitle from '../common/SectionTitle';
 
-export default function ContactSection({ openEmail, openWhatsApp }) {
+export default function ContactSection({ openWhatsApp }) {
   const [formData, setFormData] = useState({
     nombre: '',
     email: '',
@@ -34,6 +34,15 @@ ${formData.mensaje}
     )}&body=${cuerpo}`;
 
     setFormData({ nombre: '', email: '', telefono: '', mensaje: '' });
+  };
+
+  // NUEVO: abrir Gmail web directamente
+  const openEmail = () => {
+    const email = CONTACT_CONFIG.email;
+    const subject = encodeURIComponent("Consulta desde web"); // opcional
+    const body = encodeURIComponent("Hola, escribo porque...");
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&to=${email}&su=${subject}&body=${body}`;
+    window.open(gmailUrl, "_blank");
   };
 
   return (
