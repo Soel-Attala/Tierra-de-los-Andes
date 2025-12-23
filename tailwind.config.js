@@ -20,17 +20,6 @@ export default {
           900: '#0f1b08',
         },
       },
-      fontFamily: {
-        sans: [
-          '-apple-system',
-          'BlinkMacSystemFont',
-          '"Segoe UI"',
-          'Roboto',
-          '"Helvetica Neue"',
-          'Arial',
-          'sans-serif',
-        ],
-      },
     },
   },
   plugins: [],
